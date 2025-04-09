@@ -11,16 +11,16 @@ function onClick() {
 <template>
   <v-responsive class="border rounded">
     <v-app :theme="theme">
-      <v-app-bar class="px-3" color="green-lighten-4">
+      <!--<v-app-bar class="px-3" color="green-lighten-2">
         <v-spacer></v-spacer>
 
-        <!-- <v-btn
+         <v-btn
           :prepend-icon="theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'"
           text="Toggle Theme"
           slim
           @click="onClick"
-        ></v-btn> -->
-      </v-app-bar>
+        ></v-btn> 
+      </v-app-bar>-->
 
       <v-main>
         <v-img src="img/bg.jpg">
@@ -54,7 +54,7 @@ function onClick() {
         </v-img>
       </v-main>
 
-      <v-footer color="green-lighten-4" border app>copyright2025</v-footer>
+      <!-- <v-footer color="green-lighten-2" border app>copyright2025</v-footer> -->
     </v-app>
   </v-responsive>
 </template>
